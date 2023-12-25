@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=-1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="rock-paper-scissors.png" type="image/x-icon">
+    <title>Rock Paper Scissors</title>
+</head>
+<body class="bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 flex justify-center">
+    <div id="game" class="bg-gradient-to-r from-red-400 via-gray-300 to-blue-500 ">
+        <p class="text-center text-cyan-950 text-xl  mx-28 mt-10 mobile:text-lg font-bold">Rock Paper Scissors</p>
+        <div class="flex justify-around relative top-12 text-white font-medium">
+            <p id="playerchose" class="hidden bg-opacity-25 bg-blur backdrop-blur-md p-2 rounded-md bg-gray-200 ">Player chose:</p>
+            <p id="computerchose" class="hidden bg-opacity-25 bg-blur backdrop-blur-md p-2 rounded-md bg-gray-200 ">Computer chose:</p>
+        </div>
+        <div class="flex justify-end relative top-28">
+            <img id="computerimages" src="" alt="" class="w-48 hidden">
+        </div>
+        <div>
+            <img id="playerimages" src="" alt="image"  class="w-48 relative top-6 hidden">
+        </div>
+        <div  class="flex  justify-center relative top-16 text-xl font-semibold text-gray-900 mobile:top-20">
+            <p id="winningtext" class="hidden"></p>
+        </div>
+        <div id="buttons" class="flex justify-around relative top-32 mobile:relative mobile:top-40">
+            <button>
+                <img id="rockbtn" src="rock.png" alt="" class="w-24 h-24 ">
+            </button>
+            <button>
+                <img id="paperbtn" src="paper.png" alt="" class="w-24 h-24">
+            </button>
+            <button>
+                <img id="scissorbtn" src="Scissors.png" alt="" class="w-28 h-24">
+            </button>
+        </div>
+        
+
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
